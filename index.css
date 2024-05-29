@@ -102,6 +102,8 @@ hr {
     margin-left: 2.5%;
 }
 
+/* Main header */
+
 .main-header {
     margin: 0;
     overflow: hidden;
@@ -173,6 +175,8 @@ hr {
     background-color:  #070b12;
 }
 
+/* Title and Content block classes */
+
 .main-content__title-block-header {
     margin: 0 0 0 0.5em;
     padding: 0;
@@ -193,6 +197,8 @@ hr {
 
     background-color: #fcf7f0;
 }
+
+/* Portfolio */
 
 .main-content__portfolio-container {
     width: 100%;
@@ -225,12 +231,15 @@ hr {
     margin: 5px 0px 5px 0px;
 }
 
+/* About me */
+
 .main-content__aboutme {
     height: auto;
 }
 
 .main-content__aboutme-photo {
     width: 20em;
+    border: #008494 5px solid;
 }
 
 .main-content__aboutme-kanji {
@@ -245,6 +254,8 @@ hr {
     height: auto;
     text-wrap: wrap;
 }
+
+/* Education */
 
 .main-content__education img{
     width: 20em;

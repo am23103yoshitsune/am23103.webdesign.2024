@@ -29,6 +29,15 @@
     font-style: normal;
 }
 
+.playfair-subheader {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-size: 1em;
+    font-weight: 100;
+    color: black;
+    font-style: normal;
+}
+
 .playfair-body, ul li {
     font-family: "Playfair Display", serif;
     font-optical-sizing: auto;
@@ -60,7 +69,14 @@ bold.playfair-body {
     white-space: nowrap;
 }
 
+.klee-one-regular {
+    font-family: "Klee One", cursive;
+    font-size: 6em;
+    font-weight: 200;
+    font-style: normal;
 
+    margin: 0;
+  }     
 
   
 /* Content Style */
@@ -178,6 +194,37 @@ hr {
     background-color: #fcf7f0;
 }
 
+.main-content__portfolio-container {
+    width: 100%;
+
+
+    display: flex;
+
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.main-content__portfolio-container-item img{
+    width: 20em;
+    height: auto;
+}
+
+.main-content__portfolio-container-item {
+    text-align: center;
+
+    background-color: #008494;
+    padding: 5px;
+    
+    margin: 1.5em 1.5em 1.5em 1.5em;
+}
+
+.main-content__portfolio-container-item h2{
+    color: white;
+
+    margin: 5px 0px 5px 0px;
+}
+
 .main-content__aboutme {
     height: auto;
 }
@@ -197,4 +244,11 @@ hr {
     margin: 2.5% 2.5% 2.5% 2.5%;
     height: auto;
     text-wrap: wrap;
+}
+
+.main-content__education img{
+    width: 20em;
+    height: auto;
+
+    border: #008494 5px solid;
 }
